@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://www.ice.org.uk/ICEDevelopmentWebPortal/media/News/ICE%20News/Membership-survey-566-by-800.jpg");
+    background-size: cover;
+}
+#Title{
+    color:brown;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+}
+#Discription{
+    color: tomato;
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5px;
+}
+#Survey-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#Survey-outline{
+    background-color: black;
+    height: 250vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+#p2{
+    font-weight: bold;
+    font-size: 1.6rem;
+    color:white;
+    padding-top: 10px;
+}
+#name{
+    height: 7vh;
+    border-radius: 5px;
+    outline: none;
+    color:red;
+    font-size: 20px;
+    margin-top: 5px;
+}
+#Email{
+    height: 7vh;
+    border-radius: 5px;
+    outline: none;
+    color:red;
+    font-size: 20px;
+    margin-top: 5px;
+}
+#Number{
+    height: 7vh;
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+    margin-top: 5px;
+}
+#dropdown{
+    height: 7vh;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+#input-radio{
+    margin: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    color:white;
+    margin: 10px;
+}
+#input-checkbox{
+    cursor: pointer;
+    margin: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+#comment{
+    min-height: 120px;
+    outline: none;
+    margin-top: 20px;
+    font-size: 25px;
+}
+#submit{
+    height: 8vh;
+    margin-top: 30px;
+    background-color: rgb(74, 248, 6);
+    color: crimson;
+    font-weight: bold;
+    font-size: 2rem;
+    border-radius: 7px;
+}
+#submit:hover{
+    background-color:lightseagreen;
+    color: midnightblue;
+    cursor: pointer;
+}
